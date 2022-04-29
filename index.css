@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
   box-sizing: border-box;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family:  Arial, Helvetica, sans-serif; */
   margin: 0;
   background-color: rgb(34, 33, 33);
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bold;
+ 
 }
 .background{
   background-image: url(https://s3.amazonaws.com/clarityfm-production/attachments/20583/default/background.jpg?1523341818);
@@ -140,6 +144,7 @@ font-size: 30px;
 }
 .box-1 p{
   font-size: 25px;
+  text-align:justify;
 }
 
 .box{
@@ -155,7 +160,7 @@ width: 50%;
  flex: 80%;
  font-size: 18px;
  color: black;
- text-indent: 10%;
+ text-indent: 5%;
 }
 
 #home .box #myPic{
@@ -174,16 +179,21 @@ display: block;
 .Biography-1{
   color: #fff;
   font-size: 30px;
-  margin-left: 4rem;
+  margin-left: 6rem;
   margin-top: 4rem;;
-  margin-right: 4rem;
+  margin-right: 6rem;
   margin-bottom: 6rem;
   text-align: center;
+  text-align:justify;
 }
 .animate{
   display:flex;
-  justify-content: space-evenly;
-  
+  justify-content:space-evenly;
+  margin-left: 6rem;
+  margin-top: 4rem;;
+  margin-right: 6rem;
+  margin-bottom: 6rem;
+  padding: 3px 3px;
 
 }
 .img-fluid{
@@ -191,18 +201,20 @@ display: block;
   justify-content: center;
   align-content: center;
   margin-bottom: 4rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  padding: 3px 3px;
 
 }
 
 .text-1{
-  text-align: center;
+  text-align:center;
 }
 
 .icons{
   display: inline-block;
   flex:20%;
+  
 }
 .icons-container{
   display: flex;
@@ -477,7 +489,7 @@ ul.bus__list li {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding: 3rem;
+  padding: 4rem;
   overflow: hidden;
   text-align: center;
   margin-left: 3rem;
