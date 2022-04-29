@@ -7,7 +7,7 @@ body {
   margin: 0;
   background-color: rgb(34, 33, 33);
   font-family: 'Montserrat', sans-serif;
-  font-weight:bold;
+  font-weight:normal;
  
 }
 .background{
@@ -473,7 +473,7 @@ ul.bus__list li {
   display: flex;
   float:left; 
   background:rgb(224, 215, 51);
-  width:31%;
+  width:32%;
   min-height: 70vh;
   margin: 8px;
   border: 3px solid white;  
@@ -520,7 +520,7 @@ ul.bus__list li {
   font-size: 40px;
 }
 .card-text{
-  font-size: 25px;
+  font-size: 20px;
 }
 
   
