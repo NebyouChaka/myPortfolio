@@ -27,7 +27,7 @@ html {
 }
 h1{
   color: white;
-  font-size: 50px;
+  font-size: 40px;
 }
 /* Nav bar Start here*/
 li {
@@ -170,7 +170,7 @@ font-size: 30px;
 flex: 50%;
 width: 50%; 
  margin: auto;
- border: 3px solid white;
+
  padding-bottom: 5px;
 }
 .box-1{
@@ -200,7 +200,7 @@ display: block;
   margin-right: 6rem;
   margin-bottom: 6rem;
   text-align: center;
-  text-align:justify;
+  
 }
 .animate{
   display:flex;
@@ -278,11 +278,11 @@ display: block;
   #home .box #myPic{
      display: block;
      width: 50%;
-     height: 20em; 
+     height: 25em; 
      margin: auto; 
      margin-top: 5em;
      margin-bottom: 2em;
-     border: 3px solid white; 
+     /* border: 3px solid white;  */
   }
   .card h2{
     padding-top: 3rem;
@@ -290,8 +290,8 @@ display: block;
   h1{
     text-align: center;
     padding-right: 3px;
-    padding-top: 3rem;
-    font-size: 50px;
+    padding-top: 3px;
+    font-size: 40px;
    
   }
   
@@ -338,11 +338,11 @@ input[type=submit]:hover {
   #home .box #myPic{
     display: block;
     width: 50%;
-    height: 2em; 
+    height: 15em; 
     margin: auto; 
     margin-top: 4em;
-    margin-bottom: 1em;
-    border: 3px solid white; 
+    margin-bottom: 4em;
+    /* border: 3px solid white;  */
   }
   .box-1{
     flex: 100%;
@@ -358,12 +358,8 @@ input[type=submit]:hover {
   h2{
     font-size: 15px;;
   }
-  #myPic{
-    height: 30px;
-  }
-  .box{
-    height: 30px;
-  }
+ 
+ 
   .footer__content {
   
     padding: 15px;
@@ -439,7 +435,7 @@ input[type=submit]:hover {
   float:left; 
   background:rgb(224, 215, 51);
   width:32%;
-  min-height: 70vh;
+  min-height: 40vh;
   margin: 3px;
   border: 3px solid white; 
 } 
@@ -468,7 +464,7 @@ input[type=submit]:hover {
   float:left; 
   background:rgb(224, 215, 51);
   width:32%;
-  min-height: 70vh;
+  min-height: 40vh;
   
   border: 3px solid white;  
 }
@@ -477,7 +473,7 @@ input[type=submit]:hover {
   float:right;
   background:rgb(224, 215, 51);
   width:50%;
-  min-height: 70vh;
+  min-height: 40vh;
   
   border: 3px solid white;  
 }
@@ -683,11 +679,10 @@ ul.bus__list li {
 }
 
 .pro{
-  color:green;
+ 
   text-align:center;
   align-items: center;
-  margin-top: 5rem; 
-  margin-left: 5rem;
+  margin: 5px;
   align-self: flex-start;
   justify-content: flex-start;
 
