@@ -646,7 +646,7 @@ ul.bus__list li {
   float:left; 
   background:rgb(224, 215, 51);
   width:32%;
-  height: 30vh;
+  height: 70vh;
  
   border: 3px solid white; 
 } 
@@ -712,7 +712,7 @@ ul.bus__list li {
     float:right;
     background:rgb(224, 215, 51);
     width:100%;
-    min-height: 40vh;
+    min-height: 60vh;
     text-align: center;
     flex-wrap: wrap;
     
@@ -723,7 +723,7 @@ ul.bus__list li {
     float:left; 
     background:rgb(224, 215, 51);
     width:100%;
-    min-height: 40vh;
+    min-height: 60vh;
     
    
     
@@ -733,7 +733,7 @@ ul.bus__list li {
     float:left; 
     background:rgb(224, 215, 51);
     width:100%;
-    min-height: 40vh;
+    min-height: 60vh;
   
     
     
