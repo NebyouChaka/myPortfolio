@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
   box-sizing: border-box;
 }
 body {
-  /* font-family:  Arial, Helvetica, sans-serif; */
+  font-family:  Arial, Helvetica, sans-serif;
   margin: 0;
   background-color: rgb(34, 33, 33);
-  font-family: 'Montserrat', sans-serif;
+  
   font-weight:normal;
  
 }
@@ -19,6 +19,13 @@ body {
   background-image: url(https://images.pexels.com/photos/459301/pexels-photo-459301.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-repeat:no-repeat;
   background-size: cover;
+
+}
+.index{
+  background-image: url(https://s3.amazonaws.com/clarityfm-production/attachments/20583/default/background.jpg?1523341818);
+  background-repeat:no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 
 }
 
@@ -125,19 +132,62 @@ a:hover{
 .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
 }
+
+
 }
 
 /* Nav bar end here*/
 
+/* Home */
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+  padding-top: 15rem;;
+}
+.content * {
+  z-index: 10;
+}
+.home-navigation .btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  color: #fff;
+  background-color: #245d09;
+  border: 3px black;
+ 
+  font-size: 30px;
+  
+}
+.home-navigation .content h2 {
+  font-size: 3rem;
+}
 
+.home-navigation .content p {
+  font-size: 1.5rem;
+  max-width: 600px;
+  margin: 20px 0 30px;
+}
+.fas fa-chevron-right{
+  border-radius: 50%;
+  border: black;
+}
+
+
+
+/**/
 
 /* Home page start here */
-#home{
+#about{
 display: flex;
 align-items: center;
 justify-content: center;
 padding: 3rem;
-font-size: 30px;
+font-size: 20px;
 }
 .page{
   font-size: 30px;
@@ -163,7 +213,7 @@ font-size: 30px;
 }
 .box-1 p{
   font-size: 25px;
-  text-align:center;
+  text-align:left;
 }
 
 .box{
@@ -179,8 +229,27 @@ width: 50%;
  color: black;
  text-indent: 5%;
 }
+.end{
+  display: flex;
+ 
+  font-size: 25px;
+}
+h3{
+  font-size: 18px;
+  font-weight: lighter;
+}
+.spy{
+  font-size: 20px;
+}
+.edu{
+  width: 100%;
 
-#home .box #myPic{
+
+}
+
+
+
+#about .box #myPic{
 display: block;
  width: 100%;
  max-width: 400px; 
@@ -255,14 +324,14 @@ display: block;
     margin-left: 2rem;
     margin-right: 2rem;
     color: rgb(4, 4, 4);
-    font-size: 30px;    
+    font-size: 25px;    
  }
 }
 
 
 @media screen and (max-width: 650px) {
 
-  #home{
+  #about{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -275,7 +344,7 @@ display: block;
     width: 50%;
     margin: auto;
   }
-  #home .box #myPic{
+  #about .box #myPic{
      display: block;
      width: 50%;
      height: 25em; 
@@ -308,6 +377,8 @@ display: block;
   margin-right: 4rem; 
 }
 
+
+
 }
 /* contact page start here */
 .short{
@@ -334,8 +405,8 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #0f2cea;
 }
-@media screen and (max-width: 570px) {
-  #home .box #myPic{
+@media screen and (max-width: 270px) {
+  #about .box #myPic{
     display: block;
     width: 50%;
     height: 15em; 
@@ -358,6 +429,7 @@ input[type=submit]:hover {
   h2{
     font-size: 15px;;
   }
+ 
  
  
   .footer__content {
@@ -414,14 +486,13 @@ input[type=submit]:hover {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-
   overflow: hidden;
   text-align: center;
 
 }
 .container-3 {
   border-radius: 5px;
-  background-image: url(https://media.istockphoto.com/photos/abstract-network-background-picture-id1194228699?k=20&m=1194228699&s=612x612&w=0&h=42MUHPwmG5Rq-S05VlueW350rtyHD45DtWgUYTACVLo=);
+  /* background-image: url(https://media.istockphoto.com/photos/abstract-network-background-picture-id1194228699?k=20&m=1194228699&s=612x612&w=0&h=42MUHPwmG5Rq-S05VlueW350rtyHD45DtWgUYTACVLo=); */
   padding: 1px;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -435,25 +506,24 @@ input[type=submit]:hover {
   float:left; 
   background:rgb(224, 215, 51);
   width:32%;
-  min-height: 10vh;
-  margin: 3px;
+  min-height: 30vh;
+  margin: 2px;
   border: 3px solid white; 
 } 
 .card-title{
   font-size: 18px;
 }
 .card-text{
-  font-size: 18px;
-  text-align: center;
+  font-size: 16px;
+  text-align: justify;
 }
 .card-body{
   margin-left: 1rem;
   margin-top: 2rem;;
   margin-right: 3rem;
   margin-bottom: 3rem;
-  text-align: center;
-  text-align:justify;
-  width: 100px;
+  text-align:center;
+ 
   
 
 }
@@ -464,17 +534,17 @@ input[type=submit]:hover {
   float:left; 
   background:rgb(224, 215, 51);
   width:32%;
-  min-height: 10vh;
-  
+  min-height: 30vh;
+  margin: 2px;  
   border: 3px solid white;  
 }
 .card-Project-3{
   display: flex;
   float:right;
   background:rgb(224, 215, 51);
-  width:50%;
-  min-height: 10vh;
-  
+  width:32%;
+  min-height: 30vh;
+  margin: 2px;
   border: 3px solid white;  
 }
 .Biography-1{
@@ -487,6 +557,7 @@ input[type=submit]:hover {
   text-align: center;
   text-align:justify;
 }
+
 
 
 
@@ -559,7 +630,8 @@ section.footer {
   background-color: #2578c6;
   margin-left: 1rem;
   margin-right: 1rem;
-  margin-top: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
   border: 3px solid white;
 }
 .footer__content img {
@@ -628,17 +700,20 @@ ul.bus__list li {
   list-style-type: none;
   margin-bottom: 5px;
 }
+.footer{
+  height: 200px;
+}
 /* the project cards start here*/
 
 .card-group-1{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding: 10px;
+  padding: 5px;
   overflow: hidden;
   text-align: center;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
   margin-bottom: 3rem;
   
 }
@@ -648,10 +723,9 @@ ul.bus__list li {
   background:rgb(224, 215, 51);
   width:32%;
   min-height: 70vh;
-  padding: 3px;
   margin: 8px;
- 
-  border: 3px solid white; 
+  padding: 3px;
+  border: 3px solid white;  
 } 
 .card-Project-2{
   display: flex;
@@ -659,8 +733,8 @@ ul.bus__list li {
   background:rgb(224, 215, 51);
   width:32%;
   min-height: 70vh;
-  padding: 3px;
   margin: 8px;
+  padding: 3px;
   border: 3px solid white;  
 }
 .card-Project-3{
@@ -712,13 +786,14 @@ ul.bus__list li {
 
   
 
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1486px){
+ 
   .card-Project-3{
     display: flex;
     float:right;
     background:rgb(224, 215, 51);
     width:100%;
-    min-height: 60vh;
+    min-height: 70vh;
     text-align: center;
     flex-wrap: wrap;
     
@@ -729,7 +804,7 @@ ul.bus__list li {
     float:left; 
     background:rgb(224, 215, 51);
     width:100%;
-    min-height: 60vh;
+    min-height: 70vh;
     text-align: center;
     flex-wrap: wrap;
     
@@ -741,13 +816,14 @@ ul.bus__list li {
     float:left; 
     background:rgb(224, 215, 51);
     width:100%;
-    min-height: 60vh;
+    min-height: 70vh;
     text-align: center;
     flex-wrap: wrap;
     text-align: justify;
     
     
   } 
+
 
   
 }
